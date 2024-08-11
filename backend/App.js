@@ -8,7 +8,13 @@ const fs = require("fs");
 const bodyParser = require("body-parser"); // Add this line
 
 
-app.use(cors());
+app.use(cors(
+  {
+    origin:["https://deploy-gardenguru-1whq.vercel.app"],
+    method:["POST","GET"],
+    credential:true
+  }
+));
 app.use(bodyParser.json());
 
 app.use(express.json());
