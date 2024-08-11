@@ -12,7 +12,7 @@ const Community = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:8080/mycommunities", {
+    fetch("https://garden-guru-tau.vercel.app/mycommunities", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("jwt"),
       },
@@ -21,7 +21,7 @@ const Community = () => {
       .then((data) => setData(data))
       .catch((error) => console.error("Error:", error));
 
-    fetch("http://localhost:8080/allcommunities")
+    fetch("https://garden-guru-tau.vercel.app/allcommunities")
       .then((response) => response.json())
       .then((data) => setAllData(data))
       .catch((error) => console.error("Error:", error));
