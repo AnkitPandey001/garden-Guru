@@ -27,7 +27,7 @@ const SignUp = () => {
     if (userType === "admin" && SecretKey !== "garden") {
       alert("Invalid Admin");
     } else {
-      fetch("http://localhost:8080/signup", {
+      fetch("https://garden-guru-tau.vercel.app/signup", {
         method: "post",
         headers: {
           "Content-Type": "application/json",
