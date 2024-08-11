@@ -16,7 +16,7 @@ const CreatePost = () => {
   };
 
   function postData() {
-    fetch("http://localhost:8080/createComminty", {
+    fetch("https://garden-guru-tau.vercel.app/createComminty", {
       method: "post",
       headers: {
         "Content-type": "application/json",
