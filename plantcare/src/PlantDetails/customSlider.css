@@ -1,0 +1,4 @@
+.custom-slider .slick-next:before,
+.custom-slider .slick-prev:before {
+  color: #20B486; /* Change the color of the slider button */
+}

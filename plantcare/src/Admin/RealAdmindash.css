@@ -1,0 +1,19 @@
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
+.row {
+    display: table-row;
+}
+
+.col-md-3 {
+    display: table-cell;
+    width: 33.33%; /* Adjust as needed */
+    padding: 0 15px; /* Add padding if necessary */
+}
+
+.table-layout {
+    width: 100%;
+    table-layout: fixed;
+}

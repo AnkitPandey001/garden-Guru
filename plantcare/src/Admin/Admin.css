@@ -1,0 +1,298 @@
+.Admin_main{
+    background: linear-gradient(to bottom, #b6e0fe, #b3ffb3);
+    width: 90%;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 80px;
+    border-radius: 50px;
+    display: flex;
+}
+.Admin_right{
+    
+    width: 20%;
+    height: 90%;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #87ec8b, #6eafe5); 
+    color: white;
+}
+.Admin_left{
+    border: 2px solid black;
+    width: 68%;
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 90%;
+    border-radius: 50px;
+    background: linear-gradient(to right, #021b03, #0b3a61); 
+}
+.Admin_First{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 7px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(204, 192, 192);
+    border-radius: 50%;
+}
+.first_char{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 1px;
+}
+.Admin_name p{
+ font-weight: 700;
+}
+.Admin_Link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    border: 2px solid black;
+    margin: 10px;
+    height: 50px;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 30px;
+    background-color: #173c18;
+
+}
+/* profle css */
+
+.Prfile_main{
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
+}
+.profile_logo{
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(204, 192, 192);
+    border-radius: 50%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.profile_name{
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+.profile_details{
+    margin-top: 20px;
+    padding: 0.6rem;
+    width: 500px;
+}
+.profile_fullname{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border: 3px dotted green;
+}
+.profile_email{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border: 3px dotted green;
+}
+.profile_country{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border: 3px dotted green;
+}
+.profile_state{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border: 3px dotted green;
+}
+.profile_dis{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border: 3px dotted green;
+}
+/* suggest */
+.suggest_main{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 60px;
+}
+.suggest{
+    padding: 10px;
+}
+.top_suggest{
+    background-color: #a9c2d5;
+    height: 350px;
+    width: 350px;
+}
+.suggest_img{
+    height: 120px;
+}
+/* my plant */
+
+.myplant_main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 93%;
+    margin-top: 20px;
+    margin-left: 32px;
+   overflow: auto;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 8px; /* Height of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(111, 48, 48); /* Shadow inside the scrollbar track */
+    border-radius: 10px; /* Rounded corners on the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #013003, #6eafe5); 
+    border-radius: 10px; /* Rounded corners on the scroll thumb */
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5db514; /* Color of the scroll thumb when hovering */
+  }
+  
+  .btn-04{
+    padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-top: 20px;
+  font-size: x-large;
+  border: 2px solid green;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 30px;
+  cursor: pointer;
+  background-color: green;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+  
+.myplant_h1 {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+  }
+
+.main {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+
+}
+
+.contai {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.front, .back {
+    width: 320px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 20px; /* Reduced border radius */
+    transition: transform 0.6s;
+    position: absolute;
+    backface-visibility: hidden; /* Hide the backface of elements */
+}
+
+.front {
+    background: #454545;
+    transform: rotateY(0deg); /* Initial rotation */
+}
+
+.back {
+    background: #567556;
+    transform: rotateY(180deg); /* Initial rotation */
+}
+
+.contai:hover .front {
+    transform: rotateY(-180deg); /* Flip to back */
+    cursor: pointer;
+}
+
+.contai:hover .back {
+    transform: rotateY(0deg); /* Flip to front */
+    cursor: pointer;
+}
+.myplant_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+.myplant_info{
+    margin-left: 20px;
+    padding: 8px;
+  }
+  .myplant_h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+.myplant_p{
+    color: #87ec8b;
+    font-size: 16px;
+    margin-top: 32px;
+}
+.myplant_btn{
+
+     color: rgb(243, 246, 243);
+     font-size: 20px;
+     width: 150px;
+     height: 40px;
+     padding: 2px;
+     border-radius: 10px;
+     margin-left: 75px;
+     margin-top: 20px;
+     background-color: #1cc819;
+     cursor: pointer;
+    border: none;
+}
+.myplant_btn_remove{
+    
+    color: rgb(243, 246, 243);
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 10px;
+    margin-left: 75px;
+    margin-top: 5px;
+    background-color: #1cc819;
+    cursor: pointer;
+   border: none;
+}
+
+/* 
+compost
+*/
+
+.compost{
+
+    margin-top: 20px;
+    color: #ffff;
+    font-size: 30px;
+    margin-left: 100px;
+}
