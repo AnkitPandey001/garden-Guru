@@ -1,0 +1,3 @@
+name =  plantcaresite
+password = gjFQhvdjTSU04ryf
+SecretKey=garden
